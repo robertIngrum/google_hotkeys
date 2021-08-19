@@ -1,0 +1,13 @@
+{
+  "name": "Google Hotkeys",
+  "description": "Build an Extension!",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://*.google.com/search?*"],
+      "css": [],
+      "js": ["hotkeys.js"]
+    }
+  ]
+}
